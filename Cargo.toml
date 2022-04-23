@@ -1,0 +1,28 @@
+[package]
+name = "my-crate"
+version = "0.1.0"
+edition = "2021"
+include = [
+    "src/**/*",
+    "Cargo.toml",
+    "LICENSE"
+
+]
+
+homepage = "https://github.com/khatriamit/demo-crate"
+description = "This is demo crate"
+repository = "https://github.com/khatriamit/demo-crate"
+
+keywords = [
+	"demo",
+	"test"
+]
+
+categories = ["command-line-interface"]
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "3.1.10"
+thiserror = "1.0.30"
